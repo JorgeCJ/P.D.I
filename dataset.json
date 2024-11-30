@@ -1,0 +1,41 @@
+{
+  "clean_code_best_practices": {
+    "general_principles": {
+      "single_responsibility": "Cada função ou classe deve ter uma única responsabilidade, ou seja, um único motivo para mudar.",
+      "readable_code": "O código deve ser legível, fácil de entender e bem estruturado, facilitando sua manutenção e evolução.",
+      "small_functions": "Funções pequenas são mais fáceis de entender e testar. Cada função deve fazer uma única coisa e fazê-la bem.",
+      "avoid_code_duplication": "Evite duplicação de código. Utilize funções e classes reutilizáveis.",
+      "descriptive_names": "Escolha nomes descritivos e consistentes para variáveis, funções e classes.",
+      "comments": "Evite o uso excessivo de comentários. O código deve ser autoexplicativo. Utilize comentários apenas quando necessário."
+    },
+    "naming_conventions": {
+      "variables": "Use nomes de variáveis que indiquem claramente seu propósito. Prefira nomes autoexplicativos.",
+      "functions": "Use nomes de funções que descrevam o que a função faz. Utilize verbos para funções, como `calculateTotal`, `getUserData`.",
+      "classes": "Use nomes de classes que representem entidades ou objetos do mundo real. Use nomes no singular para classes que representam um único objeto e no plural para coleções.",
+      "constants": "Use letras maiúsculas para constantes, com palavras separadas por underscores, por exemplo, `MAX_CONNECTIONS`."
+    },
+    "code_structure": {
+      "indentation": "Mantenha uma indentação consistente em todo o código. A indentação deve ser feita com espaços ou tabulações, mas não uma mistura de ambos.",
+      "spacing": "Utilize espaçamento em branco para separar blocos de código e melhorar a legibilidade. Por exemplo, uma linha em branco entre funções e classes.",
+      "line_length": "Evite linhas de código muito longas. Tente limitar o comprimento das linhas a 80-100 caracteres para facilitar a leitura."
+    },
+    "error_handling": {
+      "explicit_error_handling": "Sempre trate os erros de forma explícita. Não deixe erros passarem despercebidos, e sempre forneça mensagens de erro claras.",
+      "avoid_empty_catch": "Evite blocos `catch` vazios. Se você capturar um erro, trate-o de forma adequada ou logue-o."
+    },
+    "testing": {
+      "unit_tests": "Escreva testes unitários para garantir que o código funciona como esperado. Cada função ou método deve ser testado de forma isolada.",
+      "test_naming": "Dê nomes significativos aos testes, descrevendo o que está sendo testado, como `testCalculateTotalReturnsCorrectValue`.",
+      "test_coverage": "Garanta que todos os casos de borda sejam testados e que o código tenha uma cobertura de testes adequada.",
+      "avoid_testing_implementation": "Evite testar a implementação interna. Teste o comportamento do código e os resultados, não os detalhes internos."
+    },
+    "performance": {
+      "optimize_later": "Escreva código claro e legível primeiro. A otimização prematura pode dificultar a manutenção. Otimize apenas quando necessário, após medir o desempenho.",
+      "avoid_redundant_operations": "Evite realizar operações repetidas desnecessárias, como loops aninhados ou consultas repetidas a bancos de dados."
+    },
+    "design_patterns": {
+      "use_appropriate_design_patterns": "Use padrões de design como Factory, Strategy, Singleton, etc., para resolver problemas comuns de forma estruturada e reutilizável.",
+      "separation_of_concerns": "Mantenha as responsabilidades do código bem separadas. Cada módulo ou classe deve ter uma única responsabilidade, facilitando a manutenção e escalabilidade."
+    }
+  }
+}
